@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lip-pronounciation"
+version = "0.1.0"
+description = "Local tools for lip-reading preprocessing and normalization"
+readme = "readme.md"
+requires-python = ">=3.10"
+
+[tool.setuptools]
+py-modules = ["face_normalize", "face_utils"]
