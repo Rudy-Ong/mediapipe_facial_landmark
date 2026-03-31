@@ -77,7 +77,3 @@ python test_stream.py
 ```bash
 python test_stream.py 0 face_landmarker_v2_with_blendshapes.task
 ```
-
-Notes
-- The script checks for the model file before starting. If the camera cannot be opened, the script exits with a message.
-- If you want a Tasks-API variant that draws blendshapes or writes per-frame data, I can extend the script.
